@@ -5,8 +5,8 @@ Resources:
   function:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://lambda-msdynamics365crm-code/6b59944c71ab1c39592caaeb9b40f0d2
-      Handler: com.accenture.MSDynamics.HandlerGetAccount
+      CodeUri: s3://lambda-msdynamics365crm-code/2ec6901eb1ab367ec19d01ad76b326a6
+      Handler: com.accenture.msdynamics.HandlerGetAccount
       Runtime: java8
       Description: Java function
       MemorySize: 512

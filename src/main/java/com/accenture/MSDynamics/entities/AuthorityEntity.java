@@ -1,4 +1,4 @@
-package com.accenture.MSDynamics.entities;
+package com.accenture.msdynamics.entities;
 
 public class AuthorityEntity {
 

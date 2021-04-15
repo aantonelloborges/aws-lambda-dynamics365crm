@@ -1,45 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.InvokeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-14T21:27:51" hostname="CPX-8AWSBM1TQHV" time="1.233">
+<testsuite name="example.InvokeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-15T03:56:41" hostname="CPX-8AWSBM1TQHV" time="0.063">
   <properties/>
-  <testcase name="invokeTest()" classname="example.InvokeTest" time="1.233"/>
-  <system-out><![CDATA[2021-04-14 18:27:51 [Test worker] INFO  example.InvokeTest:20 - Invoke TEST
-2021-04-14 18:27:52 [Test worker] INFO  example.TestLogger:9 - ENVIRONMENT VARIABLES: {
-  "PATH": "/home/borges/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/usr/local/lib/nodejs/node-v15.12.0-linux-x64/bin:/home/borges/.local/bin:/opt/gradle/gradle-5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Users/angelo.a.borges/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/angelo.a.borges/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin",
-  "WT_SESSION": "c9f98d2b-2aee-4128-87d9-07d969e2c2e7",
-  "LESSCLOSE": "/usr/bin/lesspipe %s %s",
-  "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
-  "MOTD_SHOWN": "update-motd",
-  "TERM": "xterm-256color",
-  "LANG": "C.UTF-8",
-  "VSCODE_GIT_IPC_HANDLE": "/tmp/vscode-git-1aa9f02e6e.sock",
-  "GRADLE_HOME": "/opt/gradle/gradle-5.0",
-  "VSCODE_GIT_ASKPASS_MAIN": "/home/borges/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/git/dist/askpass-main.js",
-  "WT_PROFILE_ID": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-  "COLORTERM": "truecolor",
-  "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-acfd5118-57e0-474a-a7cc-0d114276519a.sock",
-  "LOGNAME": "borges",
-  "VSCODE_GIT_ASKPASS_NODE": "/home/borges/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/node",
-  "TERM_PROGRAM_VERSION": "1.55.2",
-  "PWD": "/mnt/c/Users/angelo.a.borges/workspace/MSDynamics/aws-lambda-dynamics365crm-getaccount",
-  "GIT_ASKPASS": "/home/borges/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/extensions/git/dist/askpass.sh",
-  "_": "/opt/gradle/gradle-5.0/bin/gradle",
-  "SHELL": "/bin/bash",
-  "LESSOPEN": "| /usr/bin/lesspipe %s",
-  "WSL_DISTRO_NAME": "Ubuntu-20.04",
-  "TERM_PROGRAM": "vscode",
-  "HOSTTYPE": "x86_64",
-  "OLDPWD": "/opt/gradle/gradle-5.0",
-  "USER": "borges",
-  "NAME": "Code",
-  "WSLENV": "ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID",
-  "LS_COLORS": "rs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d30;41:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:",
-  "HOME": "/home/borges",
-  "SHLVL": "3"
-}
-2021-04-14 18:27:52 [Test worker] INFO  example.TestLogger:9 - CONTEXT: {}
-2021-04-14 18:27:52 [Test worker] INFO  example.TestLogger:9 - EVENT: {}
-2021-04-14 18:27:52 [Test worker] INFO  example.TestLogger:9 - EVENT TYPE: class java.util.HashMap
-2021-04-14 18:27:52 [Test worker] INFO  example.TestLogger:9 - REQUEST.phone: null
+  <testcase name="invokeTest()" classname="example.InvokeTest" time="0.063"/>
+  <system-out><![CDATA[2021-04-15 00:56:41 [Test worker] INFO  example.InvokeTest:18 - Invoke TEST
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
